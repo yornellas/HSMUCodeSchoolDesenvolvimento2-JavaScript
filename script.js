@@ -6,7 +6,7 @@ let imc = []
 
 let alunos = [45]
 let soma = 0.0
-for(let i = 0; i <= alunos.length; i++) {
+for(let i = 0; i <= 45; i++) {
     nome[i] = prompt("Qual o seu nome?")
     idade[i] = prompt("Qual a sua idade?")
     altura[i] = prompt("Qual a sua altura? (em metros)")
@@ -25,7 +25,7 @@ document.write("O maior IMC é " +maior +" | ")
 let menor = Math.min(...imc)
 document.write("O menor IMC é " +menor +" | ")
 
-let media = soma / 45
+let media = soma / alunos.length
 document.write("A média de alturas é " +media)
 
 
